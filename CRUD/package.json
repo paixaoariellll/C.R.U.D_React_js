@@ -1,0 +1,15 @@
+{
+  "name": "pagina-teste",
+  "version": "1.0.0",
+  "description": "Primeiro Projeto em CodeDrops",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon app.js"
+  },
+  "author": "Ariel Paixão",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

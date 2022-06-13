@@ -1,0 +1,26 @@
+POST http://localhost:4002/products 
+content-Type: application/json
+
+{
+    "name": "Caderno 3",
+    "price": 200
+}
+
+###
+GET http://localhost:4002/products
+
+
+###
+GET http://localhost:4002/products/13d16975-1495-4c1d-8c0b-56c04130b63b
+
+###
+PUT http://localhost:4002/products/13d16975-1495-4c1d-8c0b-56c04130b63b
+content-Type: application/json
+
+{
+    "name": "caderno mais barato",
+    "price": 50
+}
+
+###
+DELETE http://localhost:4002/products/13e32f43-8f41-4193-a26f-333db789cb63
